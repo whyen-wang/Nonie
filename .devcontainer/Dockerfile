@@ -3,9 +3,3 @@ FROM ruby:3.3.0
 RUN gem update --system
 
 RUN gem install jekyll bundler
-
-WORKDIR /app
-
-COPY Gemfile /app/Gemfile
-
-RUN bundle install

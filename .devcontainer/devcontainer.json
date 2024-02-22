@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bundle exec jekyll serve",
+	// "postCreateCommand": "bundle exec jekyll serve",
 
 	// Configure tool-specific properties.
 	"customizations": {

@@ -1,0 +1,62 @@
+#swagger-ui {
+    line-height: normal;
+    background: #fafafa;
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    h4 {
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    pre, code {
+        border: 0px;
+        background-color: transparent;
+    }
+    table {
+        display: table;
+        border: 0px;
+        color: inherit;
+    }
+    table th {
+        background-color: transparent;
+    }
+    table tr td {
+        border: 0px;
+    }
+    table thead tr td {
+        border-bottom: 1px solid rgba(59,65,81,.2);
+    }
+    table tr:nth-child(even) {
+        background-color: transparent;
+    }
+    .swagger-ui {
+        color: #3b4151;
+        font-family: sans-serif;
+    }
+}

@@ -1,0 +1,17 @@
+---
+layout: page
+title: API
+permalink: /api/
+---
+
+<div id="swagger-ui"></div>
+
+<script src="https://unpkg.com/swagger-ui-dist@5.11.8/swagger-ui-bundle.js" crossorigin></script>
+<script>
+    window.onload = function () {
+        window.ui = SwaggerUIBundle({
+            url: '../openapi.json',
+            dom_id: "#swagger-ui"
+        })
+    };
+</script>
